@@ -8,12 +8,12 @@ class Dog
     @name
   end
 
-  def breed=(breed_type)
-    @breed_type = breed_type
+  def breed=(breed)
+    @breed = breed
   end
 
   def breed
-    @breed_type
+    @breed
   end
 
 
